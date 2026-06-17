@@ -5,6 +5,9 @@ description: Use when the user wants product recommendations / new things to try
 
 # silpo-taste (recommender)
 
+**Preflight:** run `bash "${CLAUDE_PLUGIN_ROOT}/scripts/check_mcp.sh"`. If non-zero,
+relay its output (Silpo MCP setup) and stop.
+
 Suggests items you haven't bought, in your favorite categories.
 
 ## Steps

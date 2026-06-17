@@ -5,6 +5,9 @@ description: Use when the user wants to make the most of their Silpo coupons —
 
 # silpo-coupons (coupon maximizer)
 
+**Preflight:** run `bash "${CLAUDE_PLUGIN_ROOT}/scripts/check_mcp.sh"`. If non-zero,
+relay its output (Silpo MCP setup) and stop.
+
 ## Steps
 `P = ${CLAUDE_PLUGIN_ROOT}`
 

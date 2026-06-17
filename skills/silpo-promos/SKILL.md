@@ -5,6 +5,9 @@ description: Use when the user wants to save money on their Silpo shopping — m
 
 # silpo-promos
 
+**Preflight:** run `bash "${CLAUDE_PLUGIN_ROOT}/scripts/check_mcp.sh"`. If non-zero,
+relay its output (Silpo MCP setup) and stop.
+
 Matches current promotions against your restock-due staples.
 
 ## Steps

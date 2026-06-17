@@ -5,6 +5,9 @@ description: Use when the user wants to build or modify their Silpo shopping car
 
 # silpo-cart
 
+**Preflight:** run `bash "${CLAUDE_PLUGIN_ROOT}/scripts/check_mcp.sh"`. If non-zero,
+relay its output (Silpo MCP setup) and stop.
+
 Modifies the Silpo cart via the **connected MCP** write tools. **Write-enabled.**
 
 ## Safety / audit (do NOT skip)

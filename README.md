@@ -19,6 +19,13 @@ Recipient, in Claude Code:
 ```
 Then: "онови мої дані Сільпо" → analytics skills.
 
+## If the Silpo MCP isn't connected
+
+Installing the plugin auto-registers the Silpo MCP; run `/mcp` → **silpo** → log in.
+Every MCP-using skill **preflight-checks** this (`scripts/check_mcp.sh`) and prints
+the setup steps if it's missing. Full instructions: **[SETUP.md](SETUP.md)**.
+Manual add (name must be `silpo`): `claude mcp add silpo --transport http https://mcp.silpo.ua/mcp`.
+
 ## The one rule
 
 Order-history responses are ~260KB per page. If the **main thread** calls the

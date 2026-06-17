@@ -5,6 +5,9 @@ description: Use when the user wants to pull, collect, refresh, or sync their Si
 
 # silpo-collect
 
+**Preflight:** run `bash "${CLAUDE_PLUGIN_ROOT}/scripts/check_mcp.sh"`. If it exits
+non-zero, relay its output (Silpo MCP setup steps) to the user and stop.
+
 Pulls in-store (offline) + online purchase history into `data/raw/` using the
 **already-connected** Silpo MCP (`mcp__silpo__*`). No separate login.
 

@@ -1,0 +1,6 @@
+{
+  "name": "silpo",
+  "version": "0.1.0",
+  "description": "Personal grocery analytics over the Silpo MCP: collect your full purchase history out-of-context, then analyze spend, predict restocks, match promos, and build/reorder carts.",
+  "author": { "name": "silpo-plugin" }
+}

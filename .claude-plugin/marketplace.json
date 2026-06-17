@@ -1,0 +1,11 @@
+{
+  "name": "silpo",
+  "owner": { "name": "silpo-plugin" },
+  "plugins": [
+    {
+      "name": "silpo",
+      "source": "./",
+      "description": "Personal grocery analytics over the Silpo MCP — collect purchase history out-of-context, then spend dashboard, restock forecast, promo/coupon match, personal price inflation, taste recommendations, and budget/restock smart carts."
+    }
+  ]
+}
